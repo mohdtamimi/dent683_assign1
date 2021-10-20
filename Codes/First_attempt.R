@@ -4,28 +4,30 @@ library("tidyverse")
 
 library("readxl")
 
-oh12 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_ohx_12_18.xlsx"),
+
+#loading datasets
+oh12 <- read_xlsx(path = here("Data","nhanes_ohx_12_18.xlsx"),
                   sheet = "oh2012")
 
-oh14 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_ohx_12_18.xlsx"),
+oh14 <- read_xlsx(path = here("Data","nhanes_ohx_12_18.xlsx"),
                   sheet = "oh2014")
-oh16 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_ohx_12_18.xlsx"),
+oh16 <- read_xlsx(path = here("Data","nhanes_ohx_12_18.xlsx"),
                   sheet = "oh2016")
 
 
-oh18 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_ohx_12_18.xlsx"),
+oh18 <- read_xlsx(path = here("Data","nhanes_ohx_12_18.xlsx"),
                   sheet = "oh2018")
 
-demo12 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_demo_12_18.xlsx"),
+demo12 <- read_xlsx(path = here("Data","nhanes_demo_12_18.xlsx"),
                     sheet = "demo2012")
 
-demo14 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_demo_12_18.xlsx"),
+demo14 <- read_xlsx(path = here("Data","nhanes_demo_12_18.xlsx"),
                     sheet = "demo2014")
 
-demo16 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_demo_12_18.xlsx"),
+demo16 <- read_xlsx(path = here("Data","nhanes_demo_12_18.xlsx"),
                     sheet = "demo2016")
 
-demo18 <- read_xlsx(path = here("C:/Users/hp/OneDrive/dent683_assign1/Data/nhanes_demo_12_18.xlsx"),
+demo18 <- read_xlsx(path = here("Data","nhanes_demo_12_18.xlsx"),
                     sheet = "demo2018")
 
 
