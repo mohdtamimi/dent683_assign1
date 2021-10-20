@@ -95,3 +95,7 @@ alldata<- left_join(oh_all,all_demo)
 
 write.csv(alldata,file = "C:/Users/hp/OneDrive/dent683_assign1/Data/alldata.csv")
 
+#number of participants each year
+
+table(alldata$year)
+
